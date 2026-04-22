@@ -1,0 +1,55 @@
+# Xcode
+*.xcodeproj/xcuserdata/
+*.xcworkspace/xcuserdata/
+*.xcworkspace/contents.xcworkspacedata
+DerivedData/
+*.moved-aside
+*.xcuserstate
+*.xcscmblueprint
+build/
+
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Local app settings (never commit — contains API tokens and personal config)
+LocalSettings.json
+*.local.json
+Config.local.swift
+timetagger_macclient/Resources/LocalSettings.plist
+timetagger_macclient/Resources/UserConfig.plist
+SupportingFiles/LocalConfig.*
+
+# Secrets
+*.p12
+*.mobileprovision
+*.provisionprofile
+Secrets.swift
+
+# Crash logs
+*.crash
+
+# CocoaPods (not used, but just in case)
+Pods/
+
+# Carthage (not used)
+Carthage/
+
+# fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# Release artifacts (generated, not source)
+dist/
+*.dmg
+*.pkg
