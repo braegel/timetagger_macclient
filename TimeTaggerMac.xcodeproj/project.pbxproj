@@ -17,6 +17,7 @@
 		59415D3E371750B7D952EBC6 /* TagSuggestionsViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E8395DE540BEDB31F56820 /* TagSuggestionsViewModelTests.swift */; };
 		5E608626D00CF67C57590533 /* KeychainService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F41F07111AD267FD05D0992 /* KeychainService.swift */; };
 		6016AC533A85C418C8F17F2C /* StatusBarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893165EA1D92406945F0CA05 /* StatusBarViewModel.swift */; };
+		6C05AA1E7ED725133A396521 /* AppViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB8B6D91F77ADF1583C7FC2 /* AppViewModelTests.swift */; };
 		7055160387AB669268A2F42A /* StatusBarViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA13D0F47D61DB41855DB88 /* StatusBarViewModelTests.swift */; };
 		751160A83D55590B0D936E03 /* OnboardingViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B05F8BFC93088F429921A8 /* OnboardingViewModelTests.swift */; };
 		93D5DDB505B3ABC5B9DC92F7 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE06FCC195D2297AB50BDC7 /* SettingsViewModel.swift */; };
@@ -47,6 +48,7 @@
 /* Begin PBXFileReference section */
 		0733B141B3A01C3118C002DD /* TagButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagButton.swift; sourceTree = "<group>"; };
 		099EC861CD7610D5D026D85B /* ButtonMatrixViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonMatrixViewModel.swift; sourceTree = "<group>"; };
+		0AB8B6D91F77ADF1583C7FC2 /* AppViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewModelTests.swift; sourceTree = "<group>"; };
 		130833247CEA756F54A1FAE4 /* TimeTaggerMacApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeTaggerMacApp.swift; sourceTree = "<group>"; };
 		1821A2CD15454F0AA2B2420B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2926C0D442DFE781F7A41F7C /* TagSuggestionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagSuggestionsView.swift; sourceTree = "<group>"; };
@@ -235,6 +237,7 @@
 		C242B22DF8F27B48E5E48D1B /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				0AB8B6D91F77ADF1583C7FC2 /* AppViewModelTests.swift */,
 				F09329023C7E786DB93AC2B5 /* ButtonMatrixViewModelTests.swift */,
 				A7B05F8BFC93088F429921A8 /* OnboardingViewModelTests.swift */,
 				FAA13D0F47D61DB41855DB88 /* StatusBarViewModelTests.swift */,
@@ -347,6 +350,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C05AA1E7ED725133A396521 /* AppViewModelTests.swift in Sources */,
 				9C70A8F3CDCF2BA0A2F2389F /* ButtonMatrixViewModelTests.swift in Sources */,
 				1F9B1F5D6BE276672FDA0AF7 /* KeychainServiceTests.swift in Sources */,
 				D72877217B804E51CF826B2F /* MockAPIClient.swift in Sources */,
