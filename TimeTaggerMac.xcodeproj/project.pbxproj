@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F9B1F5D6BE276672FDA0AF7 /* KeychainServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE982D7E61A4F04BE5CF5E5 /* KeychainServiceTests.swift */; };
+		33CBD13406768BB26D146700 /* ButtonMatrixViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099EC861CD7610D5D026D85B /* ButtonMatrixViewModel.swift */; };
+		371E407CB4937C0D02240248 /* LocalSettingsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9D6BA450A0DC8E9903E478 /* LocalSettingsService.swift */; };
+		4524D70473B9F7E5477EAD5B /* TagSuggestionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2926C0D442DFE781F7A41F7C /* TagSuggestionsView.swift */; };
+		46AF6917A30983E33080974A /* TagButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0733B141B3A01C3118C002DD /* TagButton.swift */; };
+		5706D312A850688D29024173 /* TagSuggestionsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8117FC710E9A5B1AE75F133 /* TagSuggestionsViewModel.swift */; };
+		59415D3E371750B7D952EBC6 /* TagSuggestionsViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E8395DE540BEDB31F56820 /* TagSuggestionsViewModelTests.swift */; };
+		5E608626D00CF67C57590533 /* KeychainService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F41F07111AD267FD05D0992 /* KeychainService.swift */; };
+		6016AC533A85C418C8F17F2C /* StatusBarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893165EA1D92406945F0CA05 /* StatusBarViewModel.swift */; };
+		7055160387AB669268A2F42A /* StatusBarViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA13D0F47D61DB41855DB88 /* StatusBarViewModelTests.swift */; };
+		93D5DDB505B3ABC5B9DC92F7 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE06FCC195D2297AB50BDC7 /* SettingsViewModel.swift */; };
+		9C70A8F3CDCF2BA0A2F2389F /* ButtonMatrixViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09329023C7E786DB93AC2B5 /* ButtonMatrixViewModelTests.swift */; };
+		BA13CEDCF90FBF4465FC5F9E /* TimeTaggerAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C1F25392548B03BAC769BE /* TimeTaggerAPIClient.swift */; };
+		BF09C6985E0F17199BA17470 /* TimeTaggerAPIClientProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7318B525099CB828B37951 /* TimeTaggerAPIClientProtocol.swift */; };
+		CD824E14388585CCF3070A99 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678E0A99F0269A393F01D93D /* SettingsView.swift */; };
+		CEF864C6CE17509A9196A906 /* TimeRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC090141BD3F1C036C066977 /* TimeRecord.swift */; };
+		CF8E2FF8CCBE5F4622296B08 /* TimeTaggerAPIClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED13E98F38112CFD3522517C /* TimeTaggerAPIClientTests.swift */; };
+		D72877217B804E51CF826B2F /* MockAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5291DBF248D71FA443842C /* MockAPIClient.swift */; };
+		D9D68B0455BC91B2C9A447B8 /* APIModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94441822A8B7B811F797BB0 /* APIModels.swift */; };
+		DC5216C51CA275EA541B9108 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1821A2CD15454F0AA2B2420B /* AppDelegate.swift */; };
+		EEB369AA5E554E5094709BC8 /* TimeTaggerMacApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130833247CEA756F54A1FAE4 /* TimeTaggerMacApp.swift */; };
+		FFD7CDDB0B00EBAF7DD51427 /* ButtonMatrixView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11177B5DA68DD9B7B785671 /* ButtonMatrixView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2ACE847A261081823C058E68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7FD1BBF4B16057BB8DBA0F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9699F00899B0DCD85D132D02;
+			remoteInfo = TimeTaggerMac;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0733B141B3A01C3118C002DD /* TagButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagButton.swift; sourceTree = "<group>"; };
+		099EC861CD7610D5D026D85B /* ButtonMatrixViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonMatrixViewModel.swift; sourceTree = "<group>"; };
+		130833247CEA756F54A1FAE4 /* TimeTaggerMacApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeTaggerMacApp.swift; sourceTree = "<group>"; };
+		1821A2CD15454F0AA2B2420B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2926C0D442DFE781F7A41F7C /* TagSuggestionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagSuggestionsView.swift; sourceTree = "<group>"; };
+		2CE06FCC195D2297AB50BDC7 /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
+		3DE982D7E61A4F04BE5CF5E5 /* KeychainServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainServiceTests.swift; sourceTree = "<group>"; };
+		3FF9CEFF44108351B6C29247 /* TimeTaggerMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeTaggerMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E5291DBF248D71FA443842C /* MockAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockAPIClient.swift; sourceTree = "<group>"; };
+		6011605D8B71C5DBAA89779D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		678E0A99F0269A393F01D93D /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		88E8395DE540BEDB31F56820 /* TagSuggestionsViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagSuggestionsViewModelTests.swift; sourceTree = "<group>"; };
+		893165EA1D92406945F0CA05 /* StatusBarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBarViewModel.swift; sourceTree = "<group>"; };
+		8F41F07111AD267FD05D0992 /* KeychainService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainService.swift; sourceTree = "<group>"; };
+		AD9D6BA450A0DC8E9903E478 /* LocalSettingsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalSettingsService.swift; sourceTree = "<group>"; };
+		CC090141BD3F1C036C066977 /* TimeRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeRecord.swift; sourceTree = "<group>"; };
+		D11177B5DA68DD9B7B785671 /* ButtonMatrixView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonMatrixView.swift; sourceTree = "<group>"; };
+		D6C1F25392548B03BAC769BE /* TimeTaggerAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeTaggerAPIClient.swift; sourceTree = "<group>"; };
+		D94441822A8B7B811F797BB0 /* APIModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIModels.swift; sourceTree = "<group>"; };
+		DB7318B525099CB828B37951 /* TimeTaggerAPIClientProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeTaggerAPIClientProtocol.swift; sourceTree = "<group>"; };
+		E0A1AD4885DAF119108BB1BB /* TimeTaggerMacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeTaggerMacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8117FC710E9A5B1AE75F133 /* TagSuggestionsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagSuggestionsViewModel.swift; sourceTree = "<group>"; };
+		ED13E98F38112CFD3522517C /* TimeTaggerAPIClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeTaggerAPIClientTests.swift; sourceTree = "<group>"; };
+		F09329023C7E786DB93AC2B5 /* ButtonMatrixViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonMatrixViewModelTests.swift; sourceTree = "<group>"; };
+		FAA13D0F47D61DB41855DB88 /* StatusBarViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBarViewModelTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0716134A622BBCC53FC0B5D7 /* ButtonMatrix */ = {
+			isa = PBXGroup;
+			children = (
+				D11177B5DA68DD9B7B785671 /* ButtonMatrixView.swift */,
+				099EC861CD7610D5D026D85B /* ButtonMatrixViewModel.swift */,
+			);
+			path = ButtonMatrix;
+			sourceTree = "<group>";
+		};
+		1BC0F99C0EBF3CF6FD896069 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				ED13E98F38112CFD3522517C /* TimeTaggerAPIClientTests.swift */,
+				3793375B0FE031213DE5F32A /* Mocks */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		1DC91F9D3858C2E21EE5AEC7 /* StatusBar */ = {
+			isa = PBXGroup;
+			children = (
+				893165EA1D92406945F0CA05 /* StatusBarViewModel.swift */,
+			);
+			path = StatusBar;
+			sourceTree = "<group>";
+		};
+		1F2D43A5FD1EFE7028E5126A /* TimeTaggerMac */ = {
+			isa = PBXGroup;
+			children = (
+				DEF6D3CC7B2A26804A678A98 /* App */,
+				3CC7D12547072321A97479CB /* Features */,
+				35EBB074418CFB4855D1B50F /* Models */,
+				9015123112E46C2D0276C09B /* Resources */,
+				80111AA4BEC5ADD2283C9887 /* Services */,
+			);
+			path = TimeTaggerMac;
+			sourceTree = "<group>";
+		};
+		28A83B39A6873F22984EB357 /* Keychain */ = {
+			isa = PBXGroup;
+			children = (
+				8F41F07111AD267FD05D0992 /* KeychainService.swift */,
+			);
+			path = Keychain;
+			sourceTree = "<group>";
+		};
+		35EBB074418CFB4855D1B50F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0733B141B3A01C3118C002DD /* TagButton.swift */,
+				CC090141BD3F1C036C066977 /* TimeRecord.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3749ACA8113F90F0DD2C5F9D /* TimeTaggerMacTests */ = {
+			isa = PBXGroup;
+			children = (
+				1BC0F99C0EBF3CF6FD896069 /* API */,
+				C242B22DF8F27B48E5E48D1B /* Features */,
+				80424C18FB961550DE40D107 /* Services */,
+			);
+			path = TimeTaggerMacTests;
+			sourceTree = "<group>";
+		};
+		3793375B0FE031213DE5F32A /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				5E5291DBF248D71FA443842C /* MockAPIClient.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		3CC7D12547072321A97479CB /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				0716134A622BBCC53FC0B5D7 /* ButtonMatrix */,
+				B5E5FEEE4DF0E01EC679E119 /* Settings */,
+				1DC91F9D3858C2E21EE5AEC7 /* StatusBar */,
+				59D45CF552FD3CEBAFD5B81E /* TagSuggestions */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		59D45CF552FD3CEBAFD5B81E /* TagSuggestions */ = {
+			isa = PBXGroup;
+			children = (
+				2926C0D442DFE781F7A41F7C /* TagSuggestionsView.swift */,
+				E8117FC710E9A5B1AE75F133 /* TagSuggestionsViewModel.swift */,
+			);
+			path = TagSuggestions;
+			sourceTree = "<group>";
+		};
+		5BDEE7E5204CB9C06673A7A6 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				D94441822A8B7B811F797BB0 /* APIModels.swift */,
+				D6C1F25392548B03BAC769BE /* TimeTaggerAPIClient.swift */,
+				DB7318B525099CB828B37951 /* TimeTaggerAPIClientProtocol.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		60C42815FE3A6E72C0FF9A9E /* LocalSettings */ = {
+			isa = PBXGroup;
+			children = (
+				AD9D6BA450A0DC8E9903E478 /* LocalSettingsService.swift */,
+			);
+			path = LocalSettings;
+			sourceTree = "<group>";
+		};
+		80111AA4BEC5ADD2283C9887 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				5BDEE7E5204CB9C06673A7A6 /* API */,
+				28A83B39A6873F22984EB357 /* Keychain */,
+				60C42815FE3A6E72C0FF9A9E /* LocalSettings */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		80424C18FB961550DE40D107 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				3DE982D7E61A4F04BE5CF5E5 /* KeychainServiceTests.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		9015123112E46C2D0276C09B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6011605D8B71C5DBAA89779D /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B5E5FEEE4DF0E01EC679E119 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				678E0A99F0269A393F01D93D /* SettingsView.swift */,
+				2CE06FCC195D2297AB50BDC7 /* SettingsViewModel.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		C242B22DF8F27B48E5E48D1B /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				F09329023C7E786DB93AC2B5 /* ButtonMatrixViewModelTests.swift */,
+				FAA13D0F47D61DB41855DB88 /* StatusBarViewModelTests.swift */,
+				88E8395DE540BEDB31F56820 /* TagSuggestionsViewModelTests.swift */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		CD5EE2C798D8401F9A721D05 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FF9CEFF44108351B6C29247 /* TimeTaggerMac.app */,
+				E0A1AD4885DAF119108BB1BB /* TimeTaggerMacTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA7F58A9F08485C61964FCC6 = {
+			isa = PBXGroup;
+			children = (
+				1F2D43A5FD1EFE7028E5126A /* TimeTaggerMac */,
+				3749ACA8113F90F0DD2C5F9D /* TimeTaggerMacTests */,
+				CD5EE2C798D8401F9A721D05 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DEF6D3CC7B2A26804A678A98 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				1821A2CD15454F0AA2B2420B /* AppDelegate.swift */,
+				130833247CEA756F54A1FAE4 /* TimeTaggerMacApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7721723BDF2CD36A31BD2A58 /* TimeTaggerMacTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36D04E9CF863ACC382343D27 /* Build configuration list for PBXNativeTarget "TimeTaggerMacTests" */;
+			buildPhases = (
+				184D81517DAEF081CD26346E /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BAA388A858AE76F7D844B143 /* PBXTargetDependency */,
+			);
+			name = TimeTaggerMacTests;
+			packageProductDependencies = (
+			);
+			productName = TimeTaggerMacTests;
+			productReference = E0A1AD4885DAF119108BB1BB /* TimeTaggerMacTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9699F00899B0DCD85D132D02 /* TimeTaggerMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68E23045A950864123A8EDC5 /* Build configuration list for PBXNativeTarget "TimeTaggerMac" */;
+			buildPhases = (
+				3167D20443C318461ED1BBB5 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TimeTaggerMac;
+			packageProductDependencies = (
+			);
+			productName = TimeTaggerMac;
+			productReference = 3FF9CEFF44108351B6C29247 /* TimeTaggerMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E7FD1BBF4B16057BB8DBA0F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					9699F00899B0DCD85D132D02 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 7DE104D27A49D0DBC13AC2D8 /* Build configuration list for PBXProject "TimeTaggerMac" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = DA7F58A9F08485C61964FCC6;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = CD5EE2C798D8401F9A721D05 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9699F00899B0DCD85D132D02 /* TimeTaggerMac */,
+				7721723BDF2CD36A31BD2A58 /* TimeTaggerMacTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		184D81517DAEF081CD26346E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C70A8F3CDCF2BA0A2F2389F /* ButtonMatrixViewModelTests.swift in Sources */,
+				1F9B1F5D6BE276672FDA0AF7 /* KeychainServiceTests.swift in Sources */,
+				D72877217B804E51CF826B2F /* MockAPIClient.swift in Sources */,
+				7055160387AB669268A2F42A /* StatusBarViewModelTests.swift in Sources */,
+				59415D3E371750B7D952EBC6 /* TagSuggestionsViewModelTests.swift in Sources */,
+				CF8E2FF8CCBE5F4622296B08 /* TimeTaggerAPIClientTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3167D20443C318461ED1BBB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9D68B0455BC91B2C9A447B8 /* APIModels.swift in Sources */,
+				DC5216C51CA275EA541B9108 /* AppDelegate.swift in Sources */,
+				FFD7CDDB0B00EBAF7DD51427 /* ButtonMatrixView.swift in Sources */,
+				33CBD13406768BB26D146700 /* ButtonMatrixViewModel.swift in Sources */,
+				5E608626D00CF67C57590533 /* KeychainService.swift in Sources */,
+				371E407CB4937C0D02240248 /* LocalSettingsService.swift in Sources */,
+				CD824E14388585CCF3070A99 /* SettingsView.swift in Sources */,
+				93D5DDB505B3ABC5B9DC92F7 /* SettingsViewModel.swift in Sources */,
+				6016AC533A85C418C8F17F2C /* StatusBarViewModel.swift in Sources */,
+				46AF6917A30983E33080974A /* TagButton.swift in Sources */,
+				4524D70473B9F7E5477EAD5B /* TagSuggestionsView.swift in Sources */,
+				5706D312A850688D29024173 /* TagSuggestionsViewModel.swift in Sources */,
+				CEF864C6CE17509A9196A906 /* TimeRecord.swift in Sources */,
+				BA13CEDCF90FBF4465FC5F9E /* TimeTaggerAPIClient.swift in Sources */,
+				BF09C6985E0F17199BA17470 /* TimeTaggerAPIClientProtocol.swift in Sources */,
+				EEB369AA5E554E5094709BC8 /* TimeTaggerMacApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BAA388A858AE76F7D844B143 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9699F00899B0DCD85D132D02 /* TimeTaggerMac */;
+			targetProxy = 2ACE847A261081823C058E68 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4B010667B93105F07DD9CBE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Release;
+		};
+		501295F0EEF26AFA31F30594 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+		93CBD6F93A96E8C9490E953E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				INFOPLIST_FILE = TimeTaggerMac/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.braegelmann.timetaggermac;
+				PRODUCT_NAME = TimeTaggerMac;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Release;
+		};
+		B12D3C21361AF8AA69FC8A4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = TimeTaggerMac/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.braegelmann.timetaggermac;
+				PRODUCT_NAME = TimeTaggerMac;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+		E7E112B9D558779893710723 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.braegelmann.timetaggermactests;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.9;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimeTaggerMac.app/Contents/MacOS/TimeTaggerMac";
+			};
+			name = Release;
+		};
+		FA32FA9F1E369F4CCAF1E906 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.braegelmann.timetaggermactests;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.9;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimeTaggerMac.app/Contents/MacOS/TimeTaggerMac";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		36D04E9CF863ACC382343D27 /* Build configuration list for PBXNativeTarget "TimeTaggerMacTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA32FA9F1E369F4CCAF1E906 /* Debug */,
+				E7E112B9D558779893710723 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		68E23045A950864123A8EDC5 /* Build configuration list for PBXNativeTarget "TimeTaggerMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B12D3C21361AF8AA69FC8A4A /* Debug */,
+				93CBD6F93A96E8C9490E953E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7DE104D27A49D0DBC13AC2D8 /* Build configuration list for PBXProject "TimeTaggerMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				501295F0EEF26AFA31F30594 /* Debug */,
+				4B010667B93105F07DD9CBE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E7FD1BBF4B16057BB8DBA0F2 /* Project object */;
+}

@@ -1,0 +1,52 @@
+name: TimeTaggerMac
+options:
+  bundleIdPrefix: net.braegelmann
+  deploymentTarget:
+    macOS: "13.0"
+  xcodeVersion: "16.0"
+  generateEmptyDirectories: true
+
+settings:
+  base:
+    SWIFT_VERSION: "5.9"
+    MACOSX_DEPLOYMENT_TARGET: "13.0"
+
+targets:
+  TimeTaggerMac:
+    type: application
+    platform: macOS
+    deploymentTarget: "13.0"
+    sources:
+      - path: TimeTaggerMac
+        excludes:
+          - "**/*Tests*"
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: net.braegelmann.timetaggermac
+        PRODUCT_NAME: TimeTaggerMac
+        SWIFT_VERSION: "5.9"
+        MACOSX_DEPLOYMENT_TARGET: "13.0"
+        INFOPLIST_FILE: TimeTaggerMac/Resources/Info.plist
+        CODE_SIGN_STYLE: Automatic
+        COMBINE_HIDPI_IMAGES: YES
+      configs:
+        Debug:
+          DEBUG_INFORMATION_FORMAT: dwarf
+        Release:
+          DEBUG_INFORMATION_FORMAT: dwarf-with-dsym
+          SWIFT_OPTIMIZATION_LEVEL: "-O"
+
+  TimeTaggerMacTests:
+    type: bundle.unit-test
+    platform: macOS
+    deploymentTarget: "13.0"
+    sources:
+      - path: TimeTaggerMacTests
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: net.braegelmann.timetaggermactests
+        SWIFT_VERSION: "5.9"
+        MACOSX_DEPLOYMENT_TARGET: "13.0"
+        GENERATE_INFOPLIST_FILE: YES
+    dependencies:
+      - target: TimeTaggerMac
