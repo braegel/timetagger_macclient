@@ -28,6 +28,7 @@
 		CEF864C6CE17509A9196A906 /* TimeRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC090141BD3F1C036C066977 /* TimeRecord.swift */; };
 		CF8E2FF8CCBE5F4622296B08 /* TimeTaggerAPIClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED13E98F38112CFD3522517C /* TimeTaggerAPIClientTests.swift */; };
 		D72877217B804E51CF826B2F /* MockAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5291DBF248D71FA443842C /* MockAPIClient.swift */; };
+		D895EC84C1C244CF5D119D5D /* AppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6379E5B7FFBC4C4FF88E67 /* AppViewModel.swift */; };
 		D9D68B0455BC91B2C9A447B8 /* APIModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94441822A8B7B811F797BB0 /* APIModels.swift */; };
 		DC5216C51CA275EA541B9108 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1821A2CD15454F0AA2B2420B /* AppDelegate.swift */; };
 		E63F6291F63125D24024459A /* MockKeychainService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1654556036E50984D2D346D /* MockKeychainService.swift */; };
@@ -61,6 +62,7 @@
 		88E8395DE540BEDB31F56820 /* TagSuggestionsViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagSuggestionsViewModelTests.swift; sourceTree = "<group>"; };
 		893165EA1D92406945F0CA05 /* StatusBarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBarViewModel.swift; sourceTree = "<group>"; };
 		8F41F07111AD267FD05D0992 /* KeychainService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainService.swift; sourceTree = "<group>"; };
+		9E6379E5B7FFBC4C4FF88E67 /* AppViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewModel.swift; sourceTree = "<group>"; };
 		A1654556036E50984D2D346D /* MockKeychainService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockKeychainService.swift; sourceTree = "<group>"; };
 		A7B05F8BFC93088F429921A8 /* OnboardingViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewModelTests.swift; sourceTree = "<group>"; };
 		AD9D6BA450A0DC8E9903E478 /* LocalSettingsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalSettingsService.swift; sourceTree = "<group>"; };
@@ -268,6 +270,7 @@
 			isa = PBXGroup;
 			children = (
 				1821A2CD15454F0AA2B2420B /* AppDelegate.swift */,
+				9E6379E5B7FFBC4C4FF88E67 /* AppViewModel.swift */,
 				130833247CEA756F54A1FAE4 /* TimeTaggerMacApp.swift */,
 			);
 			path = App;
@@ -368,6 +371,7 @@
 			files = (
 				D9D68B0455BC91B2C9A447B8 /* APIModels.swift in Sources */,
 				DC5216C51CA275EA541B9108 /* AppDelegate.swift in Sources */,
+				D895EC84C1C244CF5D119D5D /* AppViewModel.swift in Sources */,
 				FFD7CDDB0B00EBAF7DD51427 /* ButtonMatrixView.swift in Sources */,
 				33CBD13406768BB26D146700 /* ButtonMatrixViewModel.swift in Sources */,
 				5E608626D00CF67C57590533 /* KeychainService.swift in Sources */,
