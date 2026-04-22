@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1993E069E1A00191AFE564F5 /* OnboardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B04DD1DAF1AD2A4887E287 /* OnboardingViewModel.swift */; };
 		1F9B1F5D6BE276672FDA0AF7 /* KeychainServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE982D7E61A4F04BE5CF5E5 /* KeychainServiceTests.swift */; };
 		33CBD13406768BB26D146700 /* ButtonMatrixViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099EC861CD7610D5D026D85B /* ButtonMatrixViewModel.swift */; };
 		371E407CB4937C0D02240248 /* LocalSettingsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9D6BA450A0DC8E9903E478 /* LocalSettingsService.swift */; };
@@ -61,6 +62,7 @@
 		A1654556036E50984D2D346D /* MockKeychainService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockKeychainService.swift; sourceTree = "<group>"; };
 		A7B05F8BFC93088F429921A8 /* OnboardingViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewModelTests.swift; sourceTree = "<group>"; };
 		AD9D6BA450A0DC8E9903E478 /* LocalSettingsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalSettingsService.swift; sourceTree = "<group>"; };
+		C0B04DD1DAF1AD2A4887E287 /* OnboardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewModel.swift; sourceTree = "<group>"; };
 		CC090141BD3F1C036C066977 /* TimeRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeRecord.swift; sourceTree = "<group>"; };
 		D11177B5DA68DD9B7B785671 /* ButtonMatrixView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonMatrixView.swift; sourceTree = "<group>"; };
 		D6C1F25392548B03BAC769BE /* TimeTaggerAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeTaggerAPIClient.swift; sourceTree = "<group>"; };
@@ -152,11 +154,20 @@
 			isa = PBXGroup;
 			children = (
 				0716134A622BBCC53FC0B5D7 /* ButtonMatrix */,
+				3FC25C8E8E5E911D37590F05 /* Onboarding */,
 				B5E5FEEE4DF0E01EC679E119 /* Settings */,
 				1DC91F9D3858C2E21EE5AEC7 /* StatusBar */,
 				59D45CF552FD3CEBAFD5B81E /* TagSuggestions */,
 			);
 			path = Features;
+			sourceTree = "<group>";
+		};
+		3FC25C8E8E5E911D37590F05 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				C0B04DD1DAF1AD2A4887E287 /* OnboardingViewModel.swift */,
+			);
+			path = Onboarding;
 			sourceTree = "<group>";
 		};
 		59D45CF552FD3CEBAFD5B81E /* TagSuggestions */ = {
@@ -357,6 +368,7 @@
 				33CBD13406768BB26D146700 /* ButtonMatrixViewModel.swift in Sources */,
 				5E608626D00CF67C57590533 /* KeychainService.swift in Sources */,
 				371E407CB4937C0D02240248 /* LocalSettingsService.swift in Sources */,
+				1993E069E1A00191AFE564F5 /* OnboardingViewModel.swift in Sources */,
 				CD824E14388585CCF3070A99 /* SettingsView.swift in Sources */,
 				93D5DDB505B3ABC5B9DC92F7 /* SettingsViewModel.swift in Sources */,
 				6016AC533A85C418C8F17F2C /* StatusBarViewModel.swift in Sources */,
