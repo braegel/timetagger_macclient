@@ -17,6 +17,7 @@
 		5E608626D00CF67C57590533 /* KeychainService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F41F07111AD267FD05D0992 /* KeychainService.swift */; };
 		6016AC533A85C418C8F17F2C /* StatusBarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893165EA1D92406945F0CA05 /* StatusBarViewModel.swift */; };
 		7055160387AB669268A2F42A /* StatusBarViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA13D0F47D61DB41855DB88 /* StatusBarViewModelTests.swift */; };
+		751160A83D55590B0D936E03 /* OnboardingViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B05F8BFC93088F429921A8 /* OnboardingViewModelTests.swift */; };
 		93D5DDB505B3ABC5B9DC92F7 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE06FCC195D2297AB50BDC7 /* SettingsViewModel.swift */; };
 		9C70A8F3CDCF2BA0A2F2389F /* ButtonMatrixViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09329023C7E786DB93AC2B5 /* ButtonMatrixViewModelTests.swift */; };
 		BA13CEDCF90FBF4465FC5F9E /* TimeTaggerAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C1F25392548B03BAC769BE /* TimeTaggerAPIClient.swift */; };
@@ -27,6 +28,7 @@
 		D72877217B804E51CF826B2F /* MockAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5291DBF248D71FA443842C /* MockAPIClient.swift */; };
 		D9D68B0455BC91B2C9A447B8 /* APIModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94441822A8B7B811F797BB0 /* APIModels.swift */; };
 		DC5216C51CA275EA541B9108 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1821A2CD15454F0AA2B2420B /* AppDelegate.swift */; };
+		E63F6291F63125D24024459A /* MockKeychainService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1654556036E50984D2D346D /* MockKeychainService.swift */; };
 		EEB369AA5E554E5094709BC8 /* TimeTaggerMacApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130833247CEA756F54A1FAE4 /* TimeTaggerMacApp.swift */; };
 		FFD7CDDB0B00EBAF7DD51427 /* ButtonMatrixView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11177B5DA68DD9B7B785671 /* ButtonMatrixView.swift */; };
 /* End PBXBuildFile section */
@@ -56,6 +58,8 @@
 		88E8395DE540BEDB31F56820 /* TagSuggestionsViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagSuggestionsViewModelTests.swift; sourceTree = "<group>"; };
 		893165EA1D92406945F0CA05 /* StatusBarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBarViewModel.swift; sourceTree = "<group>"; };
 		8F41F07111AD267FD05D0992 /* KeychainService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainService.swift; sourceTree = "<group>"; };
+		A1654556036E50984D2D346D /* MockKeychainService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockKeychainService.swift; sourceTree = "<group>"; };
+		A7B05F8BFC93088F429921A8 /* OnboardingViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewModelTests.swift; sourceTree = "<group>"; };
 		AD9D6BA450A0DC8E9903E478 /* LocalSettingsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalSettingsService.swift; sourceTree = "<group>"; };
 		CC090141BD3F1C036C066977 /* TimeRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeRecord.swift; sourceTree = "<group>"; };
 		D11177B5DA68DD9B7B785671 /* ButtonMatrixView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonMatrixView.swift; sourceTree = "<group>"; };
@@ -139,6 +143,7 @@
 			isa = PBXGroup;
 			children = (
 				5E5291DBF248D71FA443842C /* MockAPIClient.swift */,
+				A1654556036E50984D2D346D /* MockKeychainService.swift */,
 			);
 			path = Mocks;
 			sourceTree = "<group>";
@@ -220,6 +225,7 @@
 			isa = PBXGroup;
 			children = (
 				F09329023C7E786DB93AC2B5 /* ButtonMatrixViewModelTests.swift */,
+				A7B05F8BFC93088F429921A8 /* OnboardingViewModelTests.swift */,
 				FAA13D0F47D61DB41855DB88 /* StatusBarViewModelTests.swift */,
 				88E8395DE540BEDB31F56820 /* TagSuggestionsViewModelTests.swift */,
 			);
@@ -333,6 +339,8 @@
 				9C70A8F3CDCF2BA0A2F2389F /* ButtonMatrixViewModelTests.swift in Sources */,
 				1F9B1F5D6BE276672FDA0AF7 /* KeychainServiceTests.swift in Sources */,
 				D72877217B804E51CF826B2F /* MockAPIClient.swift in Sources */,
+				E63F6291F63125D24024459A /* MockKeychainService.swift in Sources */,
+				751160A83D55590B0D936E03 /* OnboardingViewModelTests.swift in Sources */,
 				7055160387AB669268A2F42A /* StatusBarViewModelTests.swift in Sources */,
 				59415D3E371750B7D952EBC6 /* TagSuggestionsViewModelTests.swift in Sources */,
 				CF8E2FF8CCBE5F4622296B08 /* TimeTaggerAPIClientTests.swift in Sources */,
