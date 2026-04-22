@@ -1,11 +1,17 @@
 import Foundation
 
+protocol URLSessionProtocol {
+    func data(for request: URLRequest) async throws -> (Data, URLResponse)
+}
+
+extension URLSession: URLSessionProtocol {}
+
 final class TimeTaggerAPIClient: TimeTaggerAPIClientProtocol {
     private let baseURL: URL
     private let token: String
-    private let session: URLSession
+    private let session: URLSessionProtocol
 
-    init(baseURL: String, token: String, session: URLSession = .shared) throws {
+    init(baseURL: String, token: String, session: URLSessionProtocol = URLSession.shared) throws {
         guard baseURL.hasPrefix("https://") else { throw APIError.insecureURL }
         guard let url = URL(string: baseURL) else { throw APIError.networkError("Invalid URL") }
         self.baseURL = url
