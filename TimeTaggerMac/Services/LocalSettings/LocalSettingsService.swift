@@ -22,26 +22,31 @@ final class LocalSettingsService {
 
     private let fileURL: URL = {
         let support = FileManager.default.urls(for: .applicationSupportDirectory, in: .userDomainMask)[0]
-        let dir = support.appendingPathComponent("TimeTaggerMac", isDirectory: true)
-        try? FileManager.default.createDirectory(at: dir, withIntermediateDirectories: true)
-        return dir.appendingPathComponent("settings.json")
+        return support
+            .appendingPathComponent("TimeTaggerMac", isDirectory: true)
+            .appendingPathComponent("settings.json")
     }()
 
     private(set) var settings: AppSettings = AppSettings()
 
-    private init() { load() }
-
-    func load() {
-        guard let data = try? Data(contentsOf: fileURL),
-              let decoded = try? JSONDecoder().decode(AppSettings.self, from: data)
-        else {
-            settings = AppSettings()
-            return
+    private init() {
+        Task.detached(priority: .utility) { [self] in
+            await self.loadFromDisk()
         }
+    }
+
+    @MainActor
+    private func loadFromDisk() {
+        let url = fileURL
+        guard let data = try? Data(contentsOf: url),
+              let decoded = try? JSONDecoder().decode(AppSettings.self, from: data)
+        else { return }
         settings = decoded
     }
 
     func save() throws {
+        let dir = fileURL.deletingLastPathComponent()
+        try FileManager.default.createDirectory(at: dir, withIntermediateDirectories: true)
         let data = try JSONEncoder().encode(settings)
         try data.write(to: fileURL, options: .atomic)
     }
